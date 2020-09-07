@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DB3866FA54F6145DE5BA5C3 /* Pods_IUCA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D05707985DE08E836A268D /* Pods_IUCA.framework */; };
+		CE4DA7042500113E00B9F5CC /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DA7032500113E00B9F5CC /* Photos.swift */; };
+		CE4DA706250014DD00B9F5CC /* SpotPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DA705250014DD00B9F5CC /* SpotPhotoCollectionViewCell.swift */; };
+		CE66F08624F7B6B000BE545F /* EventsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66F08524F7B6B000BE545F /* EventsListViewController.swift */; };
+		CE67C8A024FF51B80034AA50 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67C89F24FF51B80034AA50 /* Photo.swift */; };
+		CE6D2FAB24F7F91D00F39E95 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2FAA24F7F91D00F39E95 /* DetailViewController.swift */; };
+		CE705EB424FE2A8200B94B69 /* SpotReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE705EB324FE2A8200B94B69 /* SpotReviewTableViewCell.swift */; };
+		CE705EB624FE400E00B94B69 /* View+border.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE705EB524FE400E00B94B69 /* View+border.swift */; };
+		CE705EB824FE40B400B94B69 /* UIBarButton+hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE705EB724FE40B400B94B69 /* UIBarButton+hide.swift */; };
+		CE78C1C224FD774B00A70CAC /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78C1C124FD774B00A70CAC /* Reviews.swift */; };
 		CE8E5D0224F6A56000BC97A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E5D0124F6A56000BC97A7 /* AppDelegate.swift */; };
 		CE8E5D0424F6A56000BC97A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E5D0324F6A56000BC97A7 /* SceneDelegate.swift */; };
-		CE8E5D0624F6A56000BC97A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E5D0524F6A56000BC97A7 /* ViewController.swift */; };
-		CE8E5D0924F6A56000BC97A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E5D0724F6A56000BC97A7 /* Main.storyboard */; };
+		CE8E5D0624F6A56000BC97A7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E5D0524F6A56000BC97A7 /* LoginViewController.swift */; };
 		CE8E5D0B24F6A56200BC97A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E5D0A24F6A56200BC97A7 /* Assets.xcassets */; };
 		CE8E5D0E24F6A56200BC97A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E5D0C24F6A56200BC97A7 /* LaunchScreen.storyboard */; };
+		CE90C5A925061FDE00652449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE90C5A825061FDE00652449 /* Main.storyboard */; };
+		CE91A93124F8A68900022CA2 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91A93024F8A68900022CA2 /* Spot.swift */; };
+		CE91A93324F9093F00022CA2 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91A93224F9093F00022CA2 /* Spots.swift */; };
+		CE91A93524F9257800022CA2 /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91A93424F9257800022CA2 /* ReviewTableViewController.swift */; };
+		CE97159B2502746D0061EF8F /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97159A2502746D0061EF8F /* PhoneViewController.swift */; };
+		CE978BB524FD6E42001683CE /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE978BB424FD6E42001683CE /* Review.swift */; };
+		CE9D901624FED5DF00AE5D72 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D901524FED5DF00AE5D72 /* PhotoViewController.swift */; };
+		CED06C0824F770A400240A33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED06C0724F770A400240A33 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2C528A1AF71B55899284E14 /* Pods-IUCA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IUCA.debug.xcconfig"; path = "Target Support Files/Pods-IUCA/Pods-IUCA.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4DA7032500113E00B9F5CC /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		CE4DA705250014DD00B9F5CC /* SpotPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE66F08524F7B6B000BE545F /* EventsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListViewController.swift; sourceTree = "<group>"; };
+		CE67C89F24FF51B80034AA50 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		CE6D2FAA24F7F91D00F39E95 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CE705EB324FE2A8200B94B69 /* SpotReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotReviewTableViewCell.swift; sourceTree = "<group>"; };
+		CE705EB524FE400E00B94B69 /* View+border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+border.swift"; sourceTree = "<group>"; };
+		CE705EB724FE40B400B94B69 /* UIBarButton+hide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButton+hide.swift"; sourceTree = "<group>"; };
+		CE78C1C124FD774B00A70CAC /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		CE8E5CFE24F6A56000BC97A7 /* IUCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IUCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8E5D0124F6A56000BC97A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE8E5D0324F6A56000BC97A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE8E5D0524F6A56000BC97A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE8E5D0824F6A56000BC97A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE8E5D0524F6A56000BC97A7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CE8E5D0A24F6A56200BC97A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8E5D0D24F6A56200BC97A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8E5D0F24F6A56200BC97A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE90C5A825061FDE00652449 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CE91A93024F8A68900022CA2 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		CE91A93224F9093F00022CA2 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
+		CE91A93424F9257800022CA2 /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReviewTableViewController.swift; path = Assets.xcassets/ReviewTableViewController.swift; sourceTree = "<group>"; };
+		CE97159A2502746D0061EF8F /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		CE978BB424FD6E42001683CE /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		CE9D901524FED5DF00AE5D72 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		CED06C0724F770A400240A33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D4D05707985DE08E836A268D /* Pods_IUCA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IUCA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F0C85968398105BDD8EDAC /* Pods-IUCA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IUCA.release.xcconfig"; path = "Target Support Files/Pods-IUCA/Pods-IUCA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB3866FA54F6145DE5BA5C3 /* Pods_IUCA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A853D1FBE2F2ED38C42ABA1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4D05707985DE08E836A268D /* Pods_IUCA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE8E5CF524F6A55F00BC97A7 = {
 			isa = PBXGroup;
 			children = (
 				CE8E5D0024F6A56000BC97A7 /* IUCA */,
 				CE8E5CFF24F6A56000BC97A7 /* Products */,
+				E9FA6AFF1052E7995E3DD342 /* Pods */,
+				A853D1FBE2F2ED38C42ABA1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +105,38 @@
 			children = (
 				CE8E5D0124F6A56000BC97A7 /* AppDelegate.swift */,
 				CE8E5D0324F6A56000BC97A7 /* SceneDelegate.swift */,
-				CE8E5D0524F6A56000BC97A7 /* ViewController.swift */,
-				CE8E5D0724F6A56000BC97A7 /* Main.storyboard */,
+				CE8E5D0524F6A56000BC97A7 /* LoginViewController.swift */,
+				CE97159A2502746D0061EF8F /* PhoneViewController.swift */,
+				CE91A93024F8A68900022CA2 /* Spot.swift */,
+				CE978BB424FD6E42001683CE /* Review.swift */,
+				CE91A93224F9093F00022CA2 /* Spots.swift */,
+				CE78C1C124FD774B00A70CAC /* Reviews.swift */,
+				CE67C89F24FF51B80034AA50 /* Photo.swift */,
+				CE4DA7032500113E00B9F5CC /* Photos.swift */,
+				CE9D901524FED5DF00AE5D72 /* PhotoViewController.swift */,
+				CE66F08524F7B6B000BE545F /* EventsListViewController.swift */,
+				CE6D2FAA24F7F91D00F39E95 /* DetailViewController.swift */,
+				CE4DA705250014DD00B9F5CC /* SpotPhotoCollectionViewCell.swift */,
+				CE705EB324FE2A8200B94B69 /* SpotReviewTableViewCell.swift */,
+				CE91A93424F9257800022CA2 /* ReviewTableViewController.swift */,
+				CE705EB524FE400E00B94B69 /* View+border.swift */,
+				CE705EB724FE40B400B94B69 /* UIBarButton+hide.swift */,
 				CE8E5D0A24F6A56200BC97A7 /* Assets.xcassets */,
+				CE90C5A825061FDE00652449 /* Main.storyboard */,
 				CE8E5D0C24F6A56200BC97A7 /* LaunchScreen.storyboard */,
 				CE8E5D0F24F6A56200BC97A7 /* Info.plist */,
+				CED06C0724F770A400240A33 /* GoogleService-Info.plist */,
 			);
 			path = IUCA;
+			sourceTree = "<group>";
+		};
+		E9FA6AFF1052E7995E3DD342 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2C528A1AF71B55899284E14 /* Pods-IUCA.debug.xcconfig */,
+				E8F0C85968398105BDD8EDAC /* Pods-IUCA.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE8E5D1224F6A56200BC97A7 /* Build configuration list for PBXNativeTarget "IUCA" */;
 			buildPhases = (
+				DF44E65B413EDF2FE6F8D1CD /* [CP] Check Pods Manifest.lock */,
 				CE8E5CFA24F6A56000BC97A7 /* Sources */,
 				CE8E5CFB24F6A56000BC97A7 /* Frameworks */,
 				CE8E5CFC24F6A56000BC97A7 /* Resources */,
+				529455FCAF017356773A3DC2 /* [CP] Embed Pods Frameworks */,
+				EBE995DC6C0773C636291153 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,19 +201,94 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8E5D0E24F6A56200BC97A7 /* LaunchScreen.storyboard in Resources */,
+				CED06C0824F770A400240A33 /* GoogleService-Info.plist in Resources */,
 				CE8E5D0B24F6A56200BC97A7 /* Assets.xcassets in Resources */,
-				CE8E5D0924F6A56000BC97A7 /* Main.storyboard in Resources */,
+				CE90C5A925061FDE00652449 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		529455FCAF017356773A3DC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IUCA/Pods-IUCA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IUCA/Pods-IUCA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IUCA/Pods-IUCA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF44E65B413EDF2FE6F8D1CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IUCA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE995DC6C0773C636291153 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IUCA/Pods-IUCA-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IUCA/Pods-IUCA-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IUCA/Pods-IUCA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE8E5CFA24F6A56000BC97A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8E5D0624F6A56000BC97A7 /* ViewController.swift in Sources */,
+				CE8E5D0624F6A56000BC97A7 /* LoginViewController.swift in Sources */,
+				CE78C1C224FD774B00A70CAC /* Reviews.swift in Sources */,
+				CE91A93324F9093F00022CA2 /* Spots.swift in Sources */,
+				CE91A93124F8A68900022CA2 /* Spot.swift in Sources */,
+				CE4DA7042500113E00B9F5CC /* Photos.swift in Sources */,
+				CE705EB624FE400E00B94B69 /* View+border.swift in Sources */,
+				CE91A93524F9257800022CA2 /* ReviewTableViewController.swift in Sources */,
+				CE4DA706250014DD00B9F5CC /* SpotPhotoCollectionViewCell.swift in Sources */,
+				CE66F08624F7B6B000BE545F /* EventsListViewController.swift in Sources */,
+				CE97159B2502746D0061EF8F /* PhoneViewController.swift in Sources */,
+				CE6D2FAB24F7F91D00F39E95 /* DetailViewController.swift in Sources */,
+				CE705EB824FE40B400B94B69 /* UIBarButton+hide.swift in Sources */,
+				CE67C8A024FF51B80034AA50 /* Photo.swift in Sources */,
+				CE978BB524FD6E42001683CE /* Review.swift in Sources */,
+				CE705EB424FE2A8200B94B69 /* SpotReviewTableViewCell.swift in Sources */,
+				CE9D901624FED5DF00AE5D72 /* PhotoViewController.swift in Sources */,
 				CE8E5D0224F6A56000BC97A7 /* AppDelegate.swift in Sources */,
 				CE8E5D0424F6A56000BC97A7 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +297,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE8E5D0724F6A56000BC97A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE8E5D0824F6A56000BC97A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE8E5D0C24F6A56200BC97A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,8 +424,10 @@
 		};
 		CE8E5D1324F6A56200BC97A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C528A1AF71B55899284E14 /* Pods-IUCA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IUCA/IUCA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2M2XRZ7H7U;
 				INFOPLIST_FILE = IUCA/Info.plist;
@@ -300,8 +444,10 @@
 		};
 		CE8E5D1424F6A56200BC97A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F0C85968398105BDD8EDAC /* Pods-IUCA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IUCA/IUCA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2M2XRZ7H7U;
 				INFOPLIST_FILE = IUCA/Info.plist;
